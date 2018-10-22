@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#bulk {
+    outline: none;
+    resize: none;
+    white-space: nowrap;
+    font-size: 11px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5);
+}
+
+body {
+    width: 300px;
+    background-color: #d8f1e2;
+    color: #2E4A62;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#devro {
+    cursor: pointer;
+    color: #b97a46;
+}
+
+#footer {
+    margin: 0;
+}
+
+#data, #devrolabs {
+    margin: 0;
+    width: 100%;
+}
+
+#surf {
+    border-radius: 40px;
+}
